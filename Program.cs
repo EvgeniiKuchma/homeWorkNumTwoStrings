@@ -10,24 +10,23 @@ namespace homeWorkNumTwoStrings
     {
         static void Main(string[] args)
         {
-
-            string userName;
-            int userAge;
-            string userZodiacSign;
-            string userProfession;
+            string Name;
+            int Age;
+            string ZodiacSign;
+            string Profession;
 
             Console.Write("Укажите ваше имя: ");
-            userName = Console.ReadLine();
+            Name = Console.ReadLine();
             Console.Write("Укажите свой возраст: ");
-            userAge = Convert.ToInt32( Console.ReadLine() );
+            Age = Convert.ToInt32( Console.ReadLine() );
             Console.Write("Укажите свой знак зодиака: ");
-            userZodiacSign = Console.ReadLine();
+            ZodiacSign = Console.ReadLine();
             Console.Write("Укажите вашу профессию: ");
-            userProfession = Console.ReadLine();
+            Profession = Console.ReadLine();
             Console.WriteLine("--------------------------------");
             Console.WriteLine("--------------------------------");
-            Console.WriteLine($"Вас зовут {userName}, вам {userAge} лет, " +
-                $"вы {userZodiacSign}, ваша профессия {userProfession}, " +
+            Console.WriteLine($"Вас зовут {Name}, вам {Age} лет, " +
+                $"вы {ZodiacSign}, ваша профессия {Profession}, " +
                 $"благодарим что прошли опрос (-:");
 
         }
